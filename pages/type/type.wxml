@@ -1,0 +1,12 @@
+<mp-vtabs 
+  vtabs="{{vtabs}}" 
+  activeTab="{{activeTab}}" 
+  bindtabclick="onTabCLick"
+  tab-bar-line-color="rgb(92, 91, 91)"
+  tab-inactive-text-color="#ffffff"
+  tab-active-bg-color="rgb(143, 143, 143)"
+  tab-bar-active-text-color="#000000"
+  tab-inactive-bg-color="rgb(92, 91, 91)"
+>
+  <view>adas</view>
+</mp-vtabs>

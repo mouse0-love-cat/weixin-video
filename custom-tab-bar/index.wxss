@@ -1,0 +1,7 @@
+.tabbar-bg{
+  background-color: rgb(75, 73, 73);
+}
+.weui-badge{
+  border-radius: 18px;
+  background-color: #FA5151;
+}

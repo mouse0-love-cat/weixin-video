@@ -1,0 +1,43 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/type/type",
+    "pages/user/user",
+    "pages/logs/logs"
+  ],
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index.png",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/type/type",
+        "iconPath": "/images/type.png",
+        "selectedIconPath": "/images/type.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "/images/user.png",
+        "selectedIconPath": "/images/user.png",
+        "text": "个人"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "kbone": true,
+    "weui": true
+  }
+}

@@ -1,0 +1,4 @@
+<!--miniprogram/custom-tab-bar/index.wxml-->
+<cover-view class="page">
+    <mp-tabbar current="{{selected}}" style="position:fixed;bottom:0;width:100%;left:0;right:0;" list="{{list}}" bindchange="switchTab" ext-class="tabbar-bg"></mp-tabbar>
+</cover-view>
